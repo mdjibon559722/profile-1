@@ -41,6 +41,10 @@ header{
     justify-content: space-between;
     width: 100%;
     padding: 20px 10%;
+    position: sticky;
+    top: 0px;
+    background-color: #25082194;
+
 }
 .logo{
     font-size: 26px;
@@ -695,7 +699,7 @@ header{
 @media (max-width:480px){
     header{
         display: block;
-        
+        position: relative;
     }
      header .logo{
         text-align: center;
